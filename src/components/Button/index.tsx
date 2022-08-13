@@ -5,7 +5,7 @@ const buttonBaseStyles = css`
   display: inline-block;
 
   padding: 1em 1.5em;
-  border: 2px solid #000;
+  border: 3px solid #000;
   border-radius: 4px;
   text-decoration: none;
 
