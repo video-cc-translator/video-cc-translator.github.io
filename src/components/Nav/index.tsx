@@ -12,6 +12,10 @@ const StyledNav = styled.nav`
     & + a {
       margin-left: 24px;
     }
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 `;
 
