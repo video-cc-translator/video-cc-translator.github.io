@@ -6,8 +6,8 @@ import styled from 'styled-components';
 const StyledNav = styled.nav`
   a {
     color: #000;
-    font-size: 20px;
-    text-decoration: none;
+    font-size: 18px;
+    text-decoration: underline;
 
     & + a {
       margin-left: 24px;
