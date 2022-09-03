@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import PageLayout from '../../layouts/PageLayout';
 
 import { CHANGELOG } from '../../data/changelog';
@@ -31,10 +32,10 @@ const Changelog = () => {
         <Wrapper>
           <ChangeTable>
             <tbody>
-              {CHANGELOG.map((log) => {
+              {CHANGELOG.map((log, key) => {
                 const { version, features, fixes } = log;
                 return (
-                  <>
+                  <Fragment key={key}>
                     <tr>
                       <th rowSpan={3}>
                         <VersionTitle>{version}</VersionTitle>
@@ -73,7 +74,7 @@ const Changelog = () => {
                         </Box>
                       </td>
                     </tr>
-                  </>
+                  </Fragment>
                 );
               })}
             </tbody>
