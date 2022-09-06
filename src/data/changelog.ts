@@ -6,6 +6,11 @@ export type ChangelogType = {
 
 export const CHANGELOG: ChangelogType[] = [
   {
+    version: 'v2.3.1',
+    features: [],
+    fixes: ['Youtube 사이트에서 간헐적으로 자막이 안보이는 현상 수정'],
+  },
+  {
     version: 'v2.3.0',
     features: ['Youtube 사이트 번역 기능 추가🎉', '자막 On/Off 기능 추가'],
     fixes: [],
