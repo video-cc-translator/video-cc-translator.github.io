@@ -57,9 +57,9 @@ const Home: React.FC = () => {
     <PageLayout>
       <Section>
         <Limit maxWidth='md'>
-          <Title>Udemy, Udacity 비디오 자막 번역기</Title>
+          <Title>동영상 자막 번역기</Title>
           <Paragraphy>
-            영상에서 제공하는 폐쇄 자막을 번역하여 제공합니다.
+            동영상 자막을 원하는 언어로 번역하여 볼 수 있습니다.
           </Paragraphy>
 
           <BtnGroup>

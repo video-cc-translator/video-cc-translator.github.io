@@ -6,6 +6,10 @@ import styled from 'styled-components';
 const StyledFooter = styled.footer`
   padding: 4em 0;
   text-align: center;
+
+  small {
+    font-size: 16px;
+  }
 `;
 
 const Footer: React.FC<React.HTMLAttributes<HTMLElement>> = ({ ...props }) => {

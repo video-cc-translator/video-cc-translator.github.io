@@ -6,9 +6,10 @@ import styled from 'styled-components';
 import LogoIcon from '../../assets/logo.svg';
 import { Link } from 'react-router-dom';
 
-const Logo = styled.div`
+const Logo = styled(Link)`
   display: flex;
   align-items: center;
+  text-decoration: none;
 
   img {
     width: 48px;
@@ -16,9 +17,22 @@ const Logo = styled.div`
   }
 
   span {
+    display: none;
     margin-left: 12px;
-    font-size: 18px;
     font-weight: bold;
+    color: #000;
+  }
+
+  @media screen and (min-width: 640px) {
+    & > span {
+      font-size: 18px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    & > span {
+      font-size: 24px;
+    }
   }
 `;
 
@@ -29,17 +43,22 @@ const Inner = styled.div`
 `;
 const StyledHeader = styled.header`
   padding: 24px 36px;
+
+  @media screen and (min-width: 640px) {
+    ${Logo} > span {
+      display: block;
+    }
+  }
 `;
 const Header: React.FC<React.HTMLAttributes<HTMLElement>> = ({ ...props }) => {
   return (
     <StyledHeader {...props}>
       <Limit maxWidth='lg'>
         <Inner>
-          <Link to='/'>
-            <Logo>
-              <img src={LogoIcon} alt='logo' />
-            </Logo>
-          </Link>
+          <Logo to='/'>
+            <img src={LogoIcon} alt='logo' />
+            <span>Video CC Translator</span>
+          </Logo>
 
           <Nav />
         </Inner>
