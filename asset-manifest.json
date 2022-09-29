@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.2cc24bfe.js",
+    "main.css": "/static/css/main.87d1e72b.css",
+    "main.js": "/static/js/main.c142e757.js",
     "static/js/787.f2ee6eda.chunk.js": "/static/js/787.f2ee6eda.chunk.js",
     "static/media/n_whale_logo.png": "/static/media/n_whale_logo.0583da0eb6152c9c8404.png",
-    "index.html": "/index.html",
     "static/media/chrome_logo.svg": "/static/media/chrome_logo.c6106977ebed16716ec4dadf1c7ce1fd.svg",
     "static/media/logo.svg": "/static/media/logo.256c5a891c2483961a69c27c1441957c.svg",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.2cc24bfe.js.map": "/static/js/main.2cc24bfe.js.map",
+    "index.html": "/index.html",
+    "main.c142e757.js.map": "/static/js/main.c142e757.js.map",
     "787.f2ee6eda.chunk.js.map": "/static/js/787.f2ee6eda.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.2cc24bfe.js"
+    "static/css/main.87d1e72b.css",
+    "static/js/main.c142e757.js"
   ]
 }
