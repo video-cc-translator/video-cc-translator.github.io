@@ -6,6 +6,16 @@ export type ChangelogType = {
 
 export const CHANGELOG: ChangelogType[] = [
   {
+    version: 'v2.3.3',
+    features: [],
+    fixes: ['Udemy Business에서 번역기가 동작하지 않는 이슈 수정', 'Udemy 다음 강의 자동 이동 시 번역기가 자동으로 업데이트되지 않는 부분 수정'],
+  },
+  {
+    version: 'v2.3.2',
+    features: [],
+    fixes: ['Udemy에서 기본 언어 설정에 따라 번역기가 정상적으로 동작하지 않는 이슈 수정'],
+  },
+  {
     version: 'v2.3.1',
     features: [],
     fixes: ['Youtube 사이트에서 간헐적으로 자막이 안보이는 현상 수정'],
