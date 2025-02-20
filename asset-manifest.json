@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.87d1e72b.css",
-    "main.js": "/static/js/main.c142e757.js",
+    "main.js": "/static/js/main.aad16cbf.js",
     "static/js/787.f2ee6eda.chunk.js": "/static/js/787.f2ee6eda.chunk.js",
     "static/media/n_whale_logo.png": "/static/media/n_whale_logo.0583da0eb6152c9c8404.png",
     "static/media/chrome_logo.svg": "/static/media/chrome_logo.c6106977ebed16716ec4dadf1c7ce1fd.svg",
     "static/media/logo.svg": "/static/media/logo.256c5a891c2483961a69c27c1441957c.svg",
     "index.html": "/index.html",
-    "main.c142e757.js.map": "/static/js/main.c142e757.js.map",
+    "main.aad16cbf.js.map": "/static/js/main.aad16cbf.js.map",
     "787.f2ee6eda.chunk.js.map": "/static/js/787.f2ee6eda.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87d1e72b.css",
-    "static/js/main.c142e757.js"
+    "static/js/main.aad16cbf.js"
   ]
 }
